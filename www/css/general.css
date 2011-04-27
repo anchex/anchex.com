@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+#center_logo
+{
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	position: absolute;
+	margin: auto;
+	width: 407px;
+	height: 91px;
+}
