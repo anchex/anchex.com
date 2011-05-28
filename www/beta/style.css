@@ -15,6 +15,7 @@ body{
 	height: auto;
 }
 #mainTop {
+	position: relative;
 	background-image: url(img/mainTop.png);
 	height: 141px;
 	width: 1061px;
@@ -25,19 +26,21 @@ body{
 	height: 638px;
 	width: 1061px;
 }
+#searchContainer{
+	position:absolute;
+	top: 80px;
+	right: 90px;
+}
 #searchBox {
 	
-	height: 30px;
-	width: 205px;
-	position: relative;
-	top: 50px;
-	left: 700px;
+	height: 31px;
+	width: 226px;
 	background-image: url(img/searchBox.png);
 	background-repeat: no-repeat;
 	background-color:transparent;
 	border:none;
-	padding-left:10px;
-	padding-right:50px;
+	padding-left: 10px;
+	padding-right: 30px;
 }
 #searchBox:focus {
 	background-image: url(img/searchBoxActived.png);
@@ -49,15 +52,18 @@ body{
 	background-repeat:no-repeat;
 	width: 134px;
 	height: 29px;
-	position:relative;
 	left:100px;
+	position: absolute;
 }
-#searchbutton {
+#searchButton {
+	position:absolute;
 	background-image: url(img/searchButton.png);
 	height: 31px;
-	width: 46px;
+	width: 16px;
+	top: 0;
+	right: 10px;
 }
-#searchbutton:hover{
+#searchButton:hover{
 	background-image:url(img/searchButtonActived.png);
 	cursor:pointer;
 }
