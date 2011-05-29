@@ -1,3 +1,28 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+}
+ol, ul {
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #ff481c;
+}
 body{
 	background-image:url(img/background.png);
 }
@@ -67,3 +92,52 @@ body{
 	background-image:url(img/searchButtonActived.png);
 	cursor:pointer;
 }
+#navigation{
+	width: 510px;
+	cursor:pointer;
+	border: 1px solid rgba(94,94,94,0.67);
+	-moz-border-radius-topright: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-moz-border-radius-topleft:8px;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-top-left-radius: 8px;
+	overflow:hidden;
+	position: absolute;
+	left: 85px;
+	bottom: 5px;
+}
+ul.menu li{
+	width: 100px;
+	height: 34px;
+	background: url(img/buttonLine.png) repeat-x 0 0;
+	float: left;
+	margin-right: 1px;
+	margin-left: 1px;
+}
+
+ul.menu li a{
+	font-size: 14px;
+	line-height: 34px;
+	text-align: center;
+	width: 100px;
+	height: 34px;
+	display: block;
+	color: #fffeff;
+	text-shadow: #000 0 1px 5px;
+}
+ul.menu li.current-menu-item a{
+	color: #4e6780;
+	text-shadow: #ff7237 0 1px 4px;
+	background-color: rgba(255,254,254,0.20);
+}
+ul.menu li a:hover{
+	text-shadow: #ffd381 0 1px 5px;
+	color: #ff1f19;
+	background-color: rgba(255,254,254,0.25);
+}
+ul.menu li a:active{
+	color: #4e6780;
+	text-shadow: #ffd381 0px 0px 5px;
+}
+
