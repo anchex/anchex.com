@@ -106,6 +106,7 @@ body{
 	position: absolute;
 	left: 85px;
 	bottom: 5px;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
 }
 ul.menu li{
 	width: 100px;
